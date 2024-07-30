@@ -1,0 +1,99 @@
+{
+  "Metadata": {
+    "FMConfig": {
+      "CB-1W": "GSH-1.FM-2"
+    },
+    "EPConfig": {
+      "1W-11": "1W-1A-R",
+      "1W-15": "1W-2A-R"
+    },
+    "EPMaxColumn": {
+      "1W-11": 4,
+      "1W-15": 4
+    },
+    "Spans": {
+      "CB-1W.EV-14": 0.0,
+      "CB-1W.EV-24": 0.0,
+      "CB-1W.EV-34": 0.0,
+      "CB-1W.EV-11": 0.0071,
+      "CB-1W.EV-12": 0.0102,
+      "CB-1W.EV-21": 0.0102,
+      "CB-1W.EV-31": 0.0122,
+      "CB-1W.EV-13": 0.015,
+      "CB-1W.EV-22": 0.015,
+      "CB-1W.EV-32": 0.019,
+      "CB-1W.EV-23": 0.021,
+      "CB-1W.EV-33": 0.025,
+      "GSH-1.FM-2": 100.0
+    },
+    "Pressures (psia)": {
+      "CB-1W": 80
+    },
+    "EPStats": {
+      "1W-11": {
+        "max flow rate (SLPM)": 9.52,
+        "avg flow rate (SLPM)": 9.519999999999998,
+        "percentEmitting": 1.0
+      },
+      "1W-15": {
+        "max flow rate (SLPM)": 46.1,
+        "avg flow rate (SLPM)": 7.683333333333334,
+        "percentEmitting": 0.16666666666666666
+      }
+    },
+    "PreExperimentLength (sec)": null,
+    "ExperimentLength (sec)": 6,
+    "PostExperimentLength (sec)": null,
+    "ConfigValues": {
+      "T1 (F)": 70.0,
+      "P2 (psia)": 12.5,
+      "SG": 0.554,
+      "K Rel N2": 0.75
+    }
+  },
+  "Experiment": {
+    "Iterations": 1,
+    "CloseAfterSection": false,
+    "CloseAfterIteration": false,
+    "ControlledReleases": [
+      {
+        "Time": 0,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 2,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Fugitive",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 1,
+              "EV-12": 0,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 5,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-15",
+            "FlowLevel": 5,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Fugitive",
+            "Intent": "",
+            "SetStates": {
+              "EV-21": 0,
+              "EV-22": 1,
+              "EV-23": 0,
+              "EV-24": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

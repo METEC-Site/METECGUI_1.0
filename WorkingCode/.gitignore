@@ -1,0 +1,13 @@
+# python #
+##########
+__pycache__
+__pycache__/
+.venv
+venv/
+__init__.py
+
+# pycharm #
+###########
+.idea
+idea/
+

@@ -1,0 +1,1 @@
+{"ts": 1581316080.823061, "j": {"source": "VanGUI", "timestamp": 1581316080.721095, "namespace": "Van", "msg": "GUI Interface main window closed - sending shutdown signal.", "eventType": "(__enum__)EventTypes.Shutdown"}}

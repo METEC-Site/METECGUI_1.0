@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "name": null,
+    "pads": [
+	  "PAD.01",
+	  "PAD.02",
+	  "PAD.03",
+	  "PAD.04",
+	  "PAD.05"
+    ],
+    "control": [
+      {
+        "labjack": "LJ.01.02",
+        "pressure": 50.0
+      }
+    ],
+    "duration": 1200,
+    "gasUse": 18.8,
+    "description": "EPA Test 9. Emissons Pad 1 & 2: None --- Emissions Pad 3(low):--- Emissions Pad 4(high) & 5(low):"
+  },
+  "startup": {
+    "actionType": "COMPOUND",
+    "timeDelta": 0,
+    "loopCount": 1,
+    "actions": [
+      {
+        "actionType": "SIMPLE",
+        "timeDelta": 0,
+        "action": "CLOSEALLVALVES",
+        "operand": [
+		  "PAD.01",
+	      "PAD.02",
+	      "PAD.03",
+	      "PAD.04",
+	      "PAD.05"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 20,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.03.01.11",
+		  "VA.04.03.31","VA.04.03.32","VA.04.03.34",
+		  "VA.05.01.11"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 300,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.03.01.11",
+		  "VA.04.03.31","VA.04.03.32","VA.04.03.34",
+		  "VA.05.01.11"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 20,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.03.02.12",
+		  "VA.04.03.23","VA.04.03.24",
+		  "VA.05.02.11"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 300,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.03.02.12",
+		  "VA.04.03.23","VA.04.03.24",
+		  "VA.05.02.11"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 20,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.03.02.31","VA.03.02.34",
+		  "VA.05.02.21","VA.05.02.24"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 300,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.03.02.31","VA.03.02.34",
+		  "VA.05.02.21","VA.05.02.24"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 20,
+        "action": "CLOSEALLVALVES",
+        "operand": [
+		  "PAD.01",
+	      "PAD.02",
+	      "PAD.03",
+	      "PAD.04",
+	      "PAD.05"
+        ]
+      }
+    ]
+  },
+  "shutdown": {
+    "actionType": "COMPOUND",
+    "timeDelta": 0,
+    "loopCount": 1,
+    "actions": [
+      {
+        "actionType": "SIMPLE",
+        "timeDelta": 0,
+        "action": "CLOSEALLVALVES",
+        "operand": [
+		  "PAD.01",
+	      "PAD.02",
+	      "PAD.03",
+	      "PAD.04",
+	      "PAD.05"
+        ]
+      },
+      {
+        "actionType": "SIMPLE",
+        "timeDelta": 20,
+        "action": "CLOSEALLVALVES",
+        "operand": [
+		  "PAD.01",
+	      "PAD.02",
+	      "PAD.03",
+	      "PAD.04",
+	      "PAD.05"
+        ]
+      }
+    ]
+  },
+  "program": {
+    "actionType": "COMPOUND",
+    "timeDelta": 0,
+    "loopCount": 1,
+    "actions": [
+      {
+        "actionType": "SIMPLE",
+        "timeDelta": 0,
+        "action": "OPENVALVES",
+        "operand": [	  
+		  "VA.03.02.12",
+		  "VA.03.02.31","VA.03.02.34",
+		  "VA.03.01.11",
+		  "VA.04.03.31","VA.04.03.32","VA.04.03.34",
+		  "VA.04.03.23","VA.04.03.24",
+		  "VA.05.01.11",
+		  "VA.05.02.11",
+		  "VA.05.02.21","VA.05.02.24"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 3600,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.03.02.12",
+		  "VA.03.02.31","VA.03.02.34",
+		  "VA.03.01.11",
+		  "VA.04.03.31","VA.04.03.32","VA.04.03.34",
+		  "VA.04.03.23","VA.04.03.24",
+		  "VA.05.01.11",
+		  "VA.05.02.11",
+		  "VA.05.02.21","VA.05.02.24"
+        ]
+      }
+    ]
+  }
+}

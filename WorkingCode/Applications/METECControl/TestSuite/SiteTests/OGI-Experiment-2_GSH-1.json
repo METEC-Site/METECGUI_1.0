@@ -1,0 +1,59 @@
+{
+  "Startup": [
+    {
+      "Action": "CloseAll"
+    },
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+        {"Name":  "1W-12", "Level": 3},
+		{"Name":  "2W-11", "Level": 2}
+      ],
+      "TimeDelta": 120
+    },
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "1T-14", "Level": 1},
+		{"Name":  "2S-18", "Level": 1}
+      ],
+      "TimeDelta": 120
+    },
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "2S-16", "Level": 1}
+      ],
+      "TimeDelta": 120
+    },
+	{
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "2T-11", "Level": 2}
+      ],
+      "TimeDelta": 120
+    },
+    {
+      "Action": "CloseAll"
+    }
+  ],
+  "Test": [
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "1W-12", "Level": 3},
+		{"Name":  "2W-11", "Level": 2},
+		{"Name":  "1T-14", "Level": 1},
+		{"Name":  "2S-18", "Level": 1},
+		{"Name":  "2S-16", "Level": 1},
+		{"Name":  "2T-11", "Level": 2}
+      ],
+      "TimeDelta": "Undefined"
+    }
+  ],
+  "Termination": [
+    {
+      "Action": "CloseAll"
+    }
+    ]
+}

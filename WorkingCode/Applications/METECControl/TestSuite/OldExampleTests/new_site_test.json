@@ -1,0 +1,20 @@
+{
+  "emissionPoints": [
+    "1S-11",
+    "1S-13",
+    "5S-12",
+    "1S-18"
+  ],
+  "startup": {
+    "actions": [
+      "packLines",
+      "calibration"
+    ]
+  },
+  "operation": {
+
+  },
+  "shutdown": {
+
+  }
+}

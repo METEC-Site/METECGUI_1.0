@@ -1,0 +1,62 @@
+{
+    "source": {
+        "type": "string",
+        "units": "None",
+        "fieldname": "source"
+    },
+    "timestamp": {
+        "type": "datetime - UTC epoch",
+        "units": "UTC",
+        "fieldname": "timestamp"
+    },
+    "GPSTime": {
+        "type": "string",
+        "units": "UTC",
+        "fieldname": "GPSTime"
+    },
+    "Lat": {
+        "type": "float",
+        "units": "dec_deg",
+        "fieldname": "Lat"
+    },
+    "Long": {
+        "type": "float",
+        "units": "dec_deg",
+        "fieldname": "Long"
+    },
+    "PosQual": {
+        "type": "int",
+        "units": "",
+        "fieldname": "PosQual"
+    },
+    "Altitude": {
+        "type": "float",
+        "units": "m",
+        "fieldname": "Altitude"
+    },
+    "COGT": {
+        "type": "float",
+        "units": "degTruenorth",
+        "fieldname": "COGT"
+    },
+    "COGM": {
+        "type": "float",
+        "units": "degMagnorth",
+        "fieldname": "COGM"
+    },
+    "SOGN": {
+        "type": "float",
+        "units": "knots",
+        "fieldname": "SOGN"
+    },
+    "SOGK": {
+        "type": "int",
+        "units": "km/h",
+        "fieldname": "SOGK"
+    },
+    "OGQual": {
+        "type": "string",
+        "units": "",
+        "fieldname": "OGQual"
+    }
+}

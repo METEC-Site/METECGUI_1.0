@@ -1,0 +1,349 @@
+{
+  "metadata": {
+    "name": null,
+    "pads": [
+	  "PAD.01",
+	  "PAD.02",
+	  "PAD.03",
+	  "PAD.04",
+	  "PAD.05"
+    ],
+    "control": [
+      {
+        "labjack": "LJ.01.02",
+        "pressure": 50.0
+      }
+    ],
+    "duration": 1200,
+    "gasUse": 18.8,
+    "description": "EPA Test 4. Emissons Pad 1(low) & 2(high): 1S-14(10psig), 2S-11(20psig), 2S-16(20psig) --- Emissions Pad 3(low): 3T-11(20psig), 3T-22(20psig), 3S-13(10psig)--- Emissions Pad 4 & 5: None"
+  },
+  "startup": {
+    "actionType": "COMPOUND",
+    "timeDelta": 0,
+    "loopCount": 1,
+    "actions": [
+      {
+        "actionType": "SIMPLE",
+        "timeDelta": 0,
+        "action": "CLOSEALLVALVES",
+        "operand": [
+		  "PAD.01",
+	      "PAD.02",
+	      "PAD.03",
+	      "PAD.04",
+	      "PAD.05"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 5,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.01.02.22",
+		  "VA.02.02.11",
+		  "VA.02.02.12",
+		  "VA.03.02.22"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 300,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.01.02.22",
+		  "VA.02.02.11",
+		  "VA.02.02.12",
+		  "VA.03.02.22"
+		  ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 20,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.03.03.12",
+		  "VA.03.03.15",
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23",
+		  "VA.02.02.24"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 300,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.03.03.12",
+		  "VA.03.03.15",
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23",
+		  "VA.02.02.24"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 20,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.03.03.21",
+		  "VA.03.03.22",
+		  "VA.03.03.25"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 300,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.03.03.21",
+		  "VA.03.03.22",
+		  "VA.03.03.25"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 20,
+        "action": "CLOSEALLVALVES",
+        "operand": [
+		  "PAD.01",
+	      "PAD.02",
+	      "PAD.03",
+	      "PAD.04",
+	      "PAD.05"
+        ]
+      }
+    ]
+  },
+  "shutdown": {
+    "actionType": "COMPOUND",
+    "timeDelta": 0,
+    "loopCount": 1,
+    "actions": [
+      {
+        "actionType": "SIMPLE",
+        "timeDelta": 0,
+        "action": "CLOSEALLVALVES",
+        "operand": [
+		  "PAD.01",
+	      "PAD.02",
+	      "PAD.03",
+	      "PAD.04",
+	      "PAD.05"
+        ]
+      },
+      {
+        "actionType": "SIMPLE",
+        "timeDelta": 20,
+        "action": "CLOSEALLVALVES",
+        "operand": [
+		  "PAD.01",
+	      "PAD.02",
+	      "PAD.03",
+	      "PAD.04",
+	      "PAD.05"
+        ]
+      }
+    ]
+  },
+  "program": {
+    "actionType": "COMPOUND",
+    "timeDelta": 0,
+    "loopCount": 1,
+    "actions": [
+      {
+        "actionType": "SIMPLE",
+        "timeDelta": 0,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.01.02.22",
+		  "VA.02.02.11",
+		  "VA.02.02.12",
+		  "VA.03.02.22",
+		  "VA.03.03.12",
+		  "VA.03.03.15",
+		  "VA.03.03.21",
+		  "VA.03.03.22",
+		  "VA.03.03.25"
+        ]
+      },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 180,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23",
+		  "VA.02.02.24"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 3,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 180,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 3,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },{
+        "actionType": "SIMPLE",
+        "timeDelta": 180,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 3,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },{
+        "actionType": "SIMPLE",
+        "timeDelta": 180,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 3,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },{
+        "actionType": "SIMPLE",
+        "timeDelta": 180,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 3,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },{
+        "actionType": "SIMPLE",
+        "timeDelta": 180,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 3,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },{
+        "actionType": "SIMPLE",
+        "timeDelta": 180,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 3,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },{
+        "actionType": "SIMPLE",
+        "timeDelta": 180,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 3,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 180,
+        "action": "OPENVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  },
+	  {
+        "actionType": "SIMPLE",
+        "timeDelta": 3,
+        "action": "CLOSEVALVES",
+        "operand": [
+		  "VA.02.02.21",
+		  "VA.02.02.22",
+		  "VA.02.02.23"
+        ]
+	  }
+    ]
+  }
+}

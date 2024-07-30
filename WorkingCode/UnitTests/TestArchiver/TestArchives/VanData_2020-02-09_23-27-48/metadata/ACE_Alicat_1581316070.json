@@ -1,0 +1,74 @@
+{
+    "source": {
+        "type": "string",
+        "units": "None",
+        "notes": "",
+        "fieldname": "source"
+    },
+    "timestamp": {
+        "type": "datetime - UTC epoch",
+        "units": "None",
+        "notes": "",
+        "fieldname": "timestamp"
+    },
+    "COMMAND_ID": {
+        "type": "int",
+        "units": "",
+        "notes": "",
+        "fieldname": "COMMAND_ID"
+    },
+    "COMMAND_STATUS": {
+        "type": "int",
+        "units": "",
+        "notes": "",
+        "fieldname": "COMMAND_STATUS"
+    },
+    "GAS_NUMBER": {
+        "type": "int",
+        "units": "",
+        "notes": "",
+        "fieldname": "GAS_NUMBER"
+    },
+    "DEVICE_STATUS_LEAST": {
+        "type": "int",
+        "units": "",
+        "notes": "",
+        "fieldname": "DEVICE_STATUS_LEAST"
+    },
+    "DEVICE_STATUS_MOST": {
+        "type": "int",
+        "units": "",
+        "notes": "",
+        "fieldname": "DEVICE_STATUS_MOST"
+    },
+    "MFC_PRESSURE": {
+        "type": "float",
+        "units": "",
+        "notes": "",
+        "fieldname": "MFC_PRESSURE"
+    },
+    "MFC_FLOW_TEMPERATURE": {
+        "type": "float",
+        "units": "",
+        "notes": "",
+        "fieldname": "MFC_FLOW_TEMPERATURE"
+    },
+    "MFC_VOLUMETRIC_FLOW": {
+        "type": "float",
+        "units": "",
+        "notes": "",
+        "fieldname": "MFC_VOLUMETRIC_FLOW"
+    },
+    "MFC_MASS_FLOW": {
+        "type": "float",
+        "units": "",
+        "notes": "",
+        "fieldname": "MFC_MASS_FLOW"
+    },
+    "MFC_MASS_FLOW_SETPOINT": {
+        "type": "float",
+        "units": "",
+        "notes": "",
+        "fieldname": "MFC_MASS_FLOW_SETPOINT"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "source": "string",
+    "timestamp": "datetime - UTC epoch",
+    "aerodyne_timestamp": "string",
+    "N2Oppb": "float",
+    "CH4ppb_1": "float",
+    "C2H2ppb": "float",
+    "H2Oppb": "float",
+    "CH4ppb_2": "float",
+    "CH4ppb_3": "float",
+    "CavityTempK": "float",
+    "CavityPresTorr": "float"
+}

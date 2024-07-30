@@ -1,0 +1,5 @@
+{
+    "source": "string",
+    "timestamp": "float",
+    "airmar1": "float"
+}

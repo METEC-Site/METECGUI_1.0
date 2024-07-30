@@ -1,0 +1,47 @@
+{
+  "Startup": [
+    {
+      "Action": "CloseAll"
+    },
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "3W-22", "Level": 2}
+      ],
+      "TimeDelta": 120
+    },
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "3S-21", "Level": 2}
+      ],
+      "TimeDelta": 120
+    },
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "3T-21", "Level": 1}
+      ],
+      "TimeDelta": 120
+    },
+    {
+      "Action": "CloseAll"
+    }
+  ],
+  "Test": [
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "3W-22", "Level": 2},
+		{"Name":  "3S-21", "Level": 2},
+		{"Name":  "3T-21", "Level": 1}
+      ],
+      "TimeDelta": "Undefined"
+    }
+  ],
+  "Termination": [
+    {
+      "Action": "CloseAll"
+    }
+    ]
+}

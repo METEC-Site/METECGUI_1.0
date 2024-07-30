@@ -1,0 +1,60 @@
+,Emission Point,Flow Level,Timing,Flow Rate,Link ID,Link Time,Flow Meter,Total FM Flow,Emission Category,Intent,Shorthand,pad,controller
+1,2W-14,0,0,0,,,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while well is producing,2W-3A,2,W
+2,2S-17,0,0,0,,,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+3,2T-11,3,190,17.857826915775732,,,GSH-1.FM-4,17.86,Vent,Tank - Flash from routine separator dump,2T-1A-R,2,T
+4,2S-17,4,205,33.33461024278136,,,GSH-1.FM-4,51.19,Vent,Pneumatic Actuator - Vent to cycle separator dump valve,2S-3A,2,S
+5,2T-11,0,210,0,,,GSH-1.FM-4,0,Vent,Tank - No Flash until next separator dump,2T-1A-R,2,T
+6,2S-17,0,210,0,,,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+7,2W-14,6,750,52.38295895294214,1,750,GSH-1.FM-4,52.38,Vent,Pneumatic Actuator - Vent to shut in well for plunger drop,2W-3A,2,W
+8,2W-14,0,760,0,7,10,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while well is producing,2W-3A,2,W
+9,2T-11,3,1045,17.857826915775732,,,GSH-1.FM-4,17.86,Vent,Tank - Flash from routine separator dump,2T-1A-R,2,T
+10,2S-17,4,1060,33.33461024278136,,,GSH-1.FM-4,51.19,Vent,Pneumatic Actuator - Vent to cycle separator dump valve,2S-3A,2,S
+11,2S-17,0,1065,0,,,GSH-1.FM-4,17.86,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+12,2T-11,0,1067,0,,,GSH-1.FM-4,0,Vent,Tank - No Flash until next separator dump,2T-1A-R,2,T
+13,2T-11,3,1112,17.857826915775732,,,GSH-1.FM-4,17.86,Vent,Tank - Flash from routine separator dump,2T-1A-R,2,T
+14,2S-17,4,1130,33.33461024278136,,,GSH-1.FM-4,51.19,Vent,Pneumatic Actuator - Vent to cycle separator dump valve,2S-3A,2,S
+15,2S-17,0,1136,0,,,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+16,2T-11,0,1136,0,,,GSH-1.FM-4,0,Vent,Tank - No Flash until next separator dump,2T-1A-R,2,T
+17,2W-14,6,1702,52.38295895294214,7,952,GSH-1.FM-4,52.38,Vent,Pneumatic Actuator - Vent to shut in well for plunger drop,2W-3A,2,W
+18,2W-14,0,1714,0,17,12,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while well is producing,2W-3A,2,W
+19,2T-11,3,2021,17.857826915775732,,,GSH-1.FM-4,17.86,Vent,Tank - Flash from routine separator dump,2T-1A-R,2,T
+20,2S-17,4,2039,33.33461024278136,,,GSH-1.FM-4,51.19,Vent,Pneumatic Actuator - Vent to cycle separator dump valve,2S-3A,2,S
+21,2T-11,0,2044,0,,,GSH-1.FM-4,33.33,Vent,Tank - No Flash until next separator dump,2T-1A-R,2,T
+22,2S-17,0,2045,0,,,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+23,2W-14,6,2596,52.38295895294214,17,894,GSH-1.FM-4,52.38,Vent,Pneumatic Actuator - Vent to shut in well for plunger drop,2W-3A,2,W
+24,2W-14,0,2605,0,23,9,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while well is producing,2W-3A,2,W
+25,2T-11,3,2918,17.857826915775732,,,GSH-1.FM-4,17.86,Vent,Tank - Flash from routine separator dump,2T-1A-R,2,T
+26,2S-17,4,2935,33.33461024278136,,,GSH-1.FM-4,51.19,Vent,Pneumatic Actuator - Vent to cycle separator dump valve,2S-3A,2,S
+27,2S-17,0,2940,0,,,GSH-1.FM-4,17.86,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+28,2T-11,0,2941,0,,,GSH-1.FM-4,0,Vent,Tank - No Flash until next separator dump,2T-1A-R,2,T
+29,2W-14,6,3517,52.38295895294214,23,921,GSH-1.FM-4,52.38,Vent,Pneumatic Actuator - Vent to shut in well for plunger drop,2W-3A,2,W
+30,2W-14,0,3525,0,29,8,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while well is producing,2W-3A,2,W
+31,2T-11,3,3822,17.857826915775732,,,GSH-1.FM-4,17.86,Vent,Tank - Flash from routine separator dump,2T-1A-R,2,T
+32,2S-17,4,3837,33.33461024278136,,,GSH-1.FM-4,51.19,Vent,Pneumatic Actuator - Vent to cycle separator dump valve,2S-3A,2,S
+33,2S-17,0,3843,0,,,GSH-1.FM-4,17.86,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+34,2T-11,0,3845,0,,,GSH-1.FM-4,0,Vent,Tank - No Flash until next separator dump,2T-1A-R,2,T
+35,2T-11,3,3889,17.857826915775732,,,GSH-1.FM-4,17.86,Vent,Tank - Flash from routine separator dump,2T-1A-R,2,T
+36,2S-17,4,3899,33.33461024278136,,,GSH-1.FM-4,51.19,Vent,Pneumatic Actuator - Vent to cycle separator dump valve,2S-3A,2,S
+37,2S-17,0,3904,0,,,GSH-1.FM-4,17.86,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+38,2T-11,0,3906,0,,,GSH-1.FM-4,0,Vent,Tank - No Flash until next separator dump,2T-1A-R,2,T
+39,2W-14,6,4380,52.38295895294214,29,863,GSH-1.FM-4,52.38,Vent,Pneumatic Actuator - Vent to shut in well for plunger drop,2W-3A,2,W
+40,2W-14,0,4390,0,39,10,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while well is producing,2W-3A,2,W
+41,2T-11,3,4717,17.857826915775732,,,GSH-1.FM-4,17.86,Vent,Tank - Flash from routine separator dump,2T-1A-R,2,T
+42,2S-17,4,4730,33.33461024278136,,,GSH-1.FM-4,51.19,Vent,Pneumatic Actuator - Vent to cycle separator dump valve,2S-3A,2,S
+43,2S-17,0,4735,0,,,GSH-1.FM-4,17.86,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+44,2T-11,0,4738,0,,,GSH-1.FM-4,0,Vent,Tank - No Flash until next separator dump,2T-1A-R,2,T
+45,2W-14,6,5305,52.38295895294214,39,925,GSH-1.FM-4,52.38,Vent,Pneumatic Actuator - Vent to shut in well for plunger drop,2W-3A,2,W
+46,2W-14,0,5316,0,45,11,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while well is producing,2W-3A,2,W
+47,2T-11,3,5621,17.857826915775732,,,GSH-1.FM-4,17.86,Vent,Tank - Flash from routine separator dump,2T-1A-R,2,T
+48,2S-17,4,5639,33.33461024278136,,,GSH-1.FM-4,51.19,Vent,Pneumatic Actuator - Vent to cycle separator dump valve,2S-3A,2,S
+49,2S-17,0,5645,0,,,GSH-1.FM-4,17.86,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+50,2T-11,0,5647,0,,,GSH-1.FM-4,0,Vent,Tank - No Flash until next separator dump,2T-1A-R,2,T
+51,2W-14,6,6251,52.38295895294214,45,946,GSH-1.FM-4,52.38,Vent,Pneumatic Actuator - Vent to shut in well for plunger drop,2W-3A,2,W
+52,2W-14,0,6260,0,51,9,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while well is producing,2W-3A,2,W
+53,2T-11,3,6563,17.857826915775732,,,GSH-1.FM-4,17.86,Vent,Tank - Flash from routine separator dump,2T-1A-R,2,T
+54,2S-17,4,6578,33.33461024278136,,,GSH-1.FM-4,51.19,Vent,Pneumatic Actuator - Vent to cycle separator dump valve,2S-3A,2,S
+55,2S-17,0,6583,0,,,GSH-1.FM-4,17.86,Vent,Pneumatic Actuator - No venting while separator level increases,2S-3A,2,S
+56,2T-11,0,6586,0,,,GSH-1.FM-4,0,Vent,Tank - No Flash until next separator dump,2T-1A-R,2,T
+57,2W-14,6,7205,52.38295895294214,51,954,GSH-1.FM-4,52.38,Vent,Pneumatic Actuator - Vent to shut in well for plunger drop,2W-3A,2,W
+58,2W-14,0,7215,0,57,10,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while well is producing,2W-3A,2,W
+59,2W-14,0,7305,0,57,100,GSH-1.FM-4,0,Vent,Pneumatic Actuator - No venting while well is producing,2W-3A,2,W

@@ -1,0 +1,37 @@
+{
+    "source": {
+        "type": "string",
+        "units": "None",
+        "fieldname": "source"
+    },
+    "timestamp": {
+        "type": "datetime - UTC epoch",
+        "units": "UTC",
+        "fieldname": "timestamp"
+    },
+    "U_Gill": {
+        "type": "float",
+        "units": "S_N+",
+        "fieldname": "U_Gill"
+    },
+    "V_Gill": {
+        "type": "float",
+        "units": "E_W+",
+        "fieldname": "V_Gill"
+    },
+    "Units": {
+        "type": "string",
+        "units": "",
+        "fieldname": "Units"
+    },
+    "WindSpeed": {
+        "type": "float",
+        "units": "m/s",
+        "fieldname": "WindSpeed"
+    },
+    "WindDirection": {
+        "type": "float",
+        "units": "degNmark)",
+        "fieldname": "WindDirection"
+    }
+}

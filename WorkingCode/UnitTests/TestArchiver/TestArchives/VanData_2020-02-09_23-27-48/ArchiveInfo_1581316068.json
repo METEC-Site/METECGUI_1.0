@@ -1,0 +1,1701 @@
+{
+    "archiveInfo": {
+        "archiveVersion": "2.0",
+        "start": "(__datetime__)02-10-2020_06-27-48_UTC+0000",
+        "lastUpdate": "(__datetime__)02-10-2020_06-28-00_UTC+0000",
+        "archivePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48",
+        "size": 525605
+    },
+    "initRecord": {
+        "name": "DArchiver",
+        "baseDir": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data",
+        "template": "VanData_%Y-%m-%d_%H-%M-%S",
+        "utcStartHMS": "6:00:00",
+        "timezone": "US/Mountain",
+        "logConfigChannelName": null,
+        "rolloverCriteria": "time",
+        "rolloverInterval": 86400,
+        "checkROInterval": 5,
+        "readonly": false,
+        "namespace": null,
+        "configFiles": [
+            {
+                "channel": "radios",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "",
+                "fileName": "LoRaConfigs.json"
+            },
+            {
+                "channel": "LicorMetadata",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "ReaderMetadata",
+                "fileName": "Licor850Metadata.json"
+            },
+            {
+                "channel": "PicarroMetadata",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "ReaderMetadata",
+                "fileName": "PicarroMetadata.json"
+            },
+            {
+                "channel": "AerodyneMetadata",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "ReaderMetadata",
+                "fileName": "AerodyneMetadata.json"
+            },
+            {
+                "channel": "GPSMetadata",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "ReaderMetadata",
+                "fileName": "GPSMetadata.json"
+            },
+            {
+                "channel": "WindsonicMetadata",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "ReaderMetadata",
+                "fileName": "WindsonicMetadata.json"
+            },
+            {
+                "channel": "mainGUIConfig",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "GUI",
+                "fileName": "GUIConfig.json"
+            },
+            {
+                "channel": "AceMD",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "ReaderMetadata",
+                "fileName": "AceTripod.json"
+            },
+            {
+                "channel": "NosMD",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "ReaderMetadata",
+                "fileName": "NosTripod.json"
+            },
+            {
+                "channel": "NOS_AlicatMD",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "ReaderMetadata",
+                "fileName": "AlicatMetadata.json"
+            },
+            {
+                "channel": "ACE_AlicatMD",
+                "basePath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Config",
+                "subPath": "ReaderMetadata",
+                "fileName": "AlicatMetadata.json"
+            }
+        ],
+        "manifests": null,
+        "originalArchiveDir": null
+    },
+    "channelMap": {
+        "archiveLogger": {
+            "channelName": "archiveLogger",
+            "typeMap": {
+                "(__enum__)ChannelType.Log": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\logs\\archiveLogger.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\logs\\archiveLogger_1581316068.log"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\logs\\archiveLogger_1581316068.log",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "DArchiver": {
+            "channelName": "DArchiver",
+            "typeMap": {
+                "(__enum__)ChannelType.Log": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\logs\\DArchiver.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\logs\\DArchiver_1581316068.log"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\logs\\DArchiver_1581316068.log",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "ArchiveInfo": {
+            "channelName": "ArchiveInfo",
+            "typeMap": {
+                "(__enum__)ChannelType.DirConfig": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\archiveCfg\\ArchiveInfo.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\ArchiveInfo_1581316068.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\ArchiveInfo_1581316068.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "radios": {
+            "channelName": "radios",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\radios.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\radios_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\radios_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "LicorMetadata": {
+            "channelName": "LicorMetadata",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\LicorMetadata.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\LicorMetadata_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\LicorMetadata_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "PicarroMetadata": {
+            "channelName": "PicarroMetadata",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\PicarroMetadata.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\PicarroMetadata_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\PicarroMetadata_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "AerodyneMetadata": {
+            "channelName": "AerodyneMetadata",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\AerodyneMetadata.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\AerodyneMetadata_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\AerodyneMetadata_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "GPSMetadata": {
+            "channelName": "GPSMetadata",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\GPSMetadata.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\GPSMetadata_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\GPSMetadata_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "WindsonicMetadata": {
+            "channelName": "WindsonicMetadata",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\WindsonicMetadata.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\WindsonicMetadata_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\WindsonicMetadata_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "mainGUIConfig": {
+            "channelName": "mainGUIConfig",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\mainGUIConfig.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\mainGUIConfig_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\mainGUIConfig_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "AceMD": {
+            "channelName": "AceMD",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\AceMD.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\AceMD_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\AceMD_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "NosMD": {
+            "channelName": "NosMD",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\NosMD.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\NosMD_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\NosMD_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "NOS_AlicatMD": {
+            "channelName": "NOS_AlicatMD",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\NOS_AlicatMD.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\NOS_AlicatMD_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\NOS_AlicatMD_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "ACE_AlicatMD": {
+            "channelName": "ACE_AlicatMD",
+            "typeMap": {
+                "(__enum__)ChannelType.Config": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\config\\ACE_AlicatMD.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\ACE_AlicatMD_1581316068.cfg"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\config\\ACE_AlicatMD_1581316068.cfg",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "VAN_CMD_MGR": {
+            "channelName": "VAN_CMD_MGR",
+            "typeMap": {
+                "(__enum__)ChannelType.Command": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\commands\\VAN_CMD_MGR.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\commands\\VAN_CMD_MGR_1581316068.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\commands\\VAN_CMD_MGR_1581316068.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "VAN_EVNT_MGR": {
+            "channelName": "VAN_EVNT_MGR",
+            "typeMap": {
+                "(__enum__)ChannelType.Event": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\events\\VAN_EVNT_MGR.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\events\\VAN_EVNT_MGR_1581316068.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\events\\VAN_EVNT_MGR_1581316068.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "root": {
+            "channelName": "root",
+            "typeMap": {
+                "(__enum__)ChannelType.Log": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\logs\\root.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:48",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\logs\\root_1581316068.log"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\logs\\root_1581316068.log",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "VanGUI": {
+            "channelName": "VanGUI",
+            "typeMap": {
+                "(__enum__)ChannelType.Command": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\commands\\VanGUI.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:49",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\commands\\VanGUI_1581316069.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\commands\\VanGUI_1581316069.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Response": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\responses\\VanGUI.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:49",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\commands\\VanGUI_1581316069.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\commands\\VanGUI_1581316069.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Log": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\logs\\VanGUI.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\logs\\VanGUI_1581316070.log"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\logs\\VanGUI_1581316070.log",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Event": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\events\\VanGUI.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:28:00",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": null,
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\events\\VanGUI_1581316080.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\events\\VanGUI_1581316080.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "Aerodyne": {
+            "channelName": "Aerodyne",
+            "typeMap": {
+                "(__enum__)ChannelType.Metadata": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\metadata\\Aerodyne.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": {
+                                        "source": "string",
+                                        "timestamp": "datetime - UTC epoch",
+                                        "aerodyne_timestamp": "string",
+                                        "N2Oppb": "float",
+                                        "CH4ppb_1": "float",
+                                        "C2H2ppb": "float",
+                                        "H2Oppb": "float",
+                                        "CH4ppb_2": "float",
+                                        "CH4ppb_3": "float",
+                                        "CavityTempK": "float",
+                                        "CavityPresTorr": "float"
+                                    },
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\Aerodyne_1581316070.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\Aerodyne_1581316070.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Data": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\data\\Aerodyne.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\Aerodyne_1581316070.csv",
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "aerodyne_timestamp": {
+                                            "type": "string",
+                                            "fieldname": "aerodyne_timestamp"
+                                        },
+                                        "N2Oppb": {
+                                            "type": "float",
+                                            "fieldname": "N2Oppb"
+                                        },
+                                        "CH4ppb_1": {
+                                            "type": "float",
+                                            "fieldname": "CH4ppb_1"
+                                        },
+                                        "C2H2ppb": {
+                                            "type": "float",
+                                            "fieldname": "C2H2ppb"
+                                        },
+                                        "H2Oppb": {
+                                            "type": "float",
+                                            "fieldname": "H2Oppb"
+                                        },
+                                        "CH4ppb_2": {
+                                            "type": "float",
+                                            "fieldname": "CH4ppb_2"
+                                        },
+                                        "CH4ppb_3": {
+                                            "type": "float",
+                                            "fieldname": "CH4ppb_3"
+                                        },
+                                        "CavityTempK": {
+                                            "type": "float",
+                                            "fieldname": "CavityTempK"
+                                        },
+                                        "CavityPresTorr": {
+                                            "type": "float",
+                                            "fieldname": "CavityPresTorr"
+                                        }
+                                    }
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\Aerodyne_1581316070.csv",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "LICOR-1": {
+            "channelName": "LICOR-1",
+            "typeMap": {
+                "(__enum__)ChannelType.Metadata": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\metadata\\LICOR-1.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "units": "None",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "units": "UTC",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "celltemp": {
+                                            "type": "float",
+                                            "units": "C",
+                                            "fieldname": "celltemp"
+                                        },
+                                        "cellpres": {
+                                            "type": "float",
+                                            "units": "kPa",
+                                            "fieldname": "cellpres"
+                                        },
+                                        "co2": {
+                                            "type": "float",
+                                            "units": "ppm",
+                                            "fieldname": "co2"
+                                        },
+                                        "co2abs": {
+                                            "type": "float",
+                                            "units": "",
+                                            "fieldname": "co2abs"
+                                        },
+                                        "h2o": {
+                                            "type": "float",
+                                            "units": "mmol/mol",
+                                            "fieldname": "h2o"
+                                        },
+                                        "h2oabs": {
+                                            "type": "float",
+                                            "units": "",
+                                            "fieldname": "h2oabs"
+                                        },
+                                        "h2odewpoint": {
+                                            "type": "float",
+                                            "units": "deg C",
+                                            "fieldname": "h2odewpoint"
+                                        },
+                                        "flowrate": {
+                                            "type": "float",
+                                            "units": "L/min",
+                                            "fieldname": "flowrate"
+                                        },
+                                        "raw_co2": {
+                                            "type": "int",
+                                            "units": "",
+                                            "fieldname": "raw_co2"
+                                        },
+                                        "raw_co2ref": {
+                                            "type": "int",
+                                            "units": "",
+                                            "fieldname": "raw_co2ref"
+                                        },
+                                        "raw_h2o": {
+                                            "type": "int",
+                                            "units": "",
+                                            "fieldname": "raw_h2o"
+                                        },
+                                        "raw_h2oref": {
+                                            "type": "int",
+                                            "units": "",
+                                            "fieldname": "raw_h2oref"
+                                        },
+                                        "ivolt": {
+                                            "type": "float",
+                                            "units": "Input Voltage",
+                                            "fieldname": "ivolt"
+                                        }
+                                    },
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\LICOR-1_1581316070.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\LICOR-1_1581316070.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Data": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\data\\LICOR-1.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\LICOR-1_1581316070.csv",
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "units": "None",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "units": "UTC",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "celltemp": {
+                                            "type": "float",
+                                            "units": "C",
+                                            "fieldname": "celltemp"
+                                        },
+                                        "cellpres": {
+                                            "type": "float",
+                                            "units": "kPa",
+                                            "fieldname": "cellpres"
+                                        },
+                                        "co2": {
+                                            "type": "float",
+                                            "units": "ppm",
+                                            "fieldname": "co2"
+                                        },
+                                        "co2abs": {
+                                            "type": "float",
+                                            "units": "",
+                                            "fieldname": "co2abs"
+                                        },
+                                        "h2o": {
+                                            "type": "float",
+                                            "units": "mmol/mol",
+                                            "fieldname": "h2o"
+                                        },
+                                        "h2oabs": {
+                                            "type": "float",
+                                            "units": "",
+                                            "fieldname": "h2oabs"
+                                        },
+                                        "h2odewpoint": {
+                                            "type": "float",
+                                            "units": "deg C",
+                                            "fieldname": "h2odewpoint"
+                                        },
+                                        "flowrate": {
+                                            "type": "float",
+                                            "units": "L/min",
+                                            "fieldname": "flowrate"
+                                        },
+                                        "raw_co2": {
+                                            "type": "int",
+                                            "units": "",
+                                            "fieldname": "raw_co2"
+                                        },
+                                        "raw_co2ref": {
+                                            "type": "int",
+                                            "units": "",
+                                            "fieldname": "raw_co2ref"
+                                        },
+                                        "raw_h2o": {
+                                            "type": "int",
+                                            "units": "",
+                                            "fieldname": "raw_h2o"
+                                        },
+                                        "raw_h2oref": {
+                                            "type": "int",
+                                            "units": "",
+                                            "fieldname": "raw_h2oref"
+                                        },
+                                        "ivolt": {
+                                            "type": "float",
+                                            "units": "Input Voltage",
+                                            "fieldname": "ivolt"
+                                        }
+                                    }
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\LICOR-1_1581316070.csv",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "Picarro": {
+            "channelName": "Picarro",
+            "typeMap": {
+                "(__enum__)ChannelType.Metadata": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\metadata\\Picarro.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": {
+                                        "source": "string",
+                                        "timestamp": "datetime - UTC epoch",
+                                        "picarro_timestamp": "string",
+                                        "CavityPresTorr": "float",
+                                        "CavityTempC": "float",
+                                        "CH4ppm": "float",
+                                        "CH4ppm_dry": "float",
+                                        "C2H6ppm": "float",
+                                        "C2H6ppm_dry": "float",
+                                        "H2Oprcnt": "float",
+                                        "CO2ppm": "float",
+                                        "C2C1ratio": "float"
+                                    },
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\Picarro_1581316070.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\Picarro_1581316070.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Data": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\data\\Picarro.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\Picarro_1581316070.csv",
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "picarro_timestamp": {
+                                            "type": "string",
+                                            "fieldname": "picarro_timestamp"
+                                        },
+                                        "CavityPresTorr": {
+                                            "type": "float",
+                                            "fieldname": "CavityPresTorr"
+                                        },
+                                        "CavityTempC": {
+                                            "type": "float",
+                                            "fieldname": "CavityTempC"
+                                        },
+                                        "CH4ppm": {
+                                            "type": "float",
+                                            "fieldname": "CH4ppm"
+                                        },
+                                        "CH4ppm_dry": {
+                                            "type": "float",
+                                            "fieldname": "CH4ppm_dry"
+                                        },
+                                        "C2H6ppm": {
+                                            "type": "float",
+                                            "fieldname": "C2H6ppm"
+                                        },
+                                        "C2H6ppm_dry": {
+                                            "type": "float",
+                                            "fieldname": "C2H6ppm_dry"
+                                        },
+                                        "H2Oprcnt": {
+                                            "type": "float",
+                                            "fieldname": "H2Oprcnt"
+                                        },
+                                        "CO2ppm": {
+                                            "type": "float",
+                                            "fieldname": "CO2ppm"
+                                        },
+                                        "C2C1ratio": {
+                                            "type": "float",
+                                            "fieldname": "C2C1ratio"
+                                        }
+                                    }
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\Picarro_1581316070.csv",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "NOS_Alicat": {
+            "channelName": "NOS_Alicat",
+            "typeMap": {
+                "(__enum__)ChannelType.Metadata": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\metadata\\NOS_Alicat.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "units": "None",
+                                            "notes": "",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "units": "None",
+                                            "notes": "",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "COMMAND_ID": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "COMMAND_ID"
+                                        },
+                                        "COMMAND_STATUS": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "COMMAND_STATUS"
+                                        },
+                                        "GAS_NUMBER": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "GAS_NUMBER"
+                                        },
+                                        "DEVICE_STATUS_LEAST": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "DEVICE_STATUS_LEAST"
+                                        },
+                                        "DEVICE_STATUS_MOST": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "DEVICE_STATUS_MOST"
+                                        },
+                                        "MFC_PRESSURE": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_PRESSURE"
+                                        },
+                                        "MFC_FLOW_TEMPERATURE": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_FLOW_TEMPERATURE"
+                                        },
+                                        "MFC_VOLUMETRIC_FLOW": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_VOLUMETRIC_FLOW"
+                                        },
+                                        "MFC_MASS_FLOW": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_MASS_FLOW"
+                                        },
+                                        "MFC_MASS_FLOW_SETPOINT": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_MASS_FLOW_SETPOINT"
+                                        }
+                                    },
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\NOS_Alicat_1581316070.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\NOS_Alicat_1581316070.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Data": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\data\\NOS_Alicat.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\NOS_Alicat_1581316070.csv",
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "units": "None",
+                                            "notes": "",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "units": "None",
+                                            "notes": "",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "COMMAND_ID": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "COMMAND_ID"
+                                        },
+                                        "COMMAND_STATUS": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "COMMAND_STATUS"
+                                        },
+                                        "GAS_NUMBER": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "GAS_NUMBER"
+                                        },
+                                        "DEVICE_STATUS_LEAST": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "DEVICE_STATUS_LEAST"
+                                        },
+                                        "DEVICE_STATUS_MOST": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "DEVICE_STATUS_MOST"
+                                        },
+                                        "MFC_PRESSURE": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_PRESSURE"
+                                        },
+                                        "MFC_FLOW_TEMPERATURE": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_FLOW_TEMPERATURE"
+                                        },
+                                        "MFC_VOLUMETRIC_FLOW": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_VOLUMETRIC_FLOW"
+                                        },
+                                        "MFC_MASS_FLOW": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_MASS_FLOW"
+                                        },
+                                        "MFC_MASS_FLOW_SETPOINT": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_MASS_FLOW_SETPOINT"
+                                        }
+                                    }
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\NOS_Alicat_1581316070.csv",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "ACE_Alicat": {
+            "channelName": "ACE_Alicat",
+            "typeMap": {
+                "(__enum__)ChannelType.Metadata": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\metadata\\ACE_Alicat.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "units": "None",
+                                            "notes": "",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "units": "None",
+                                            "notes": "",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "COMMAND_ID": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "COMMAND_ID"
+                                        },
+                                        "COMMAND_STATUS": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "COMMAND_STATUS"
+                                        },
+                                        "GAS_NUMBER": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "GAS_NUMBER"
+                                        },
+                                        "DEVICE_STATUS_LEAST": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "DEVICE_STATUS_LEAST"
+                                        },
+                                        "DEVICE_STATUS_MOST": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "DEVICE_STATUS_MOST"
+                                        },
+                                        "MFC_PRESSURE": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_PRESSURE"
+                                        },
+                                        "MFC_FLOW_TEMPERATURE": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_FLOW_TEMPERATURE"
+                                        },
+                                        "MFC_VOLUMETRIC_FLOW": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_VOLUMETRIC_FLOW"
+                                        },
+                                        "MFC_MASS_FLOW": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_MASS_FLOW"
+                                        },
+                                        "MFC_MASS_FLOW_SETPOINT": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_MASS_FLOW_SETPOINT"
+                                        }
+                                    },
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\ACE_Alicat_1581316070.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\ACE_Alicat_1581316070.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Data": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\data\\ACE_Alicat.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\ACE_Alicat_1581316070.csv",
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "units": "None",
+                                            "notes": "",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "units": "None",
+                                            "notes": "",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "COMMAND_ID": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "COMMAND_ID"
+                                        },
+                                        "COMMAND_STATUS": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "COMMAND_STATUS"
+                                        },
+                                        "GAS_NUMBER": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "GAS_NUMBER"
+                                        },
+                                        "DEVICE_STATUS_LEAST": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "DEVICE_STATUS_LEAST"
+                                        },
+                                        "DEVICE_STATUS_MOST": {
+                                            "type": "int",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "DEVICE_STATUS_MOST"
+                                        },
+                                        "MFC_PRESSURE": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_PRESSURE"
+                                        },
+                                        "MFC_FLOW_TEMPERATURE": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_FLOW_TEMPERATURE"
+                                        },
+                                        "MFC_VOLUMETRIC_FLOW": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_VOLUMETRIC_FLOW"
+                                        },
+                                        "MFC_MASS_FLOW": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_MASS_FLOW"
+                                        },
+                                        "MFC_MASS_FLOW_SETPOINT": {
+                                            "type": "float",
+                                            "units": "",
+                                            "notes": "",
+                                            "fieldname": "MFC_MASS_FLOW_SETPOINT"
+                                        }
+                                    }
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\ACE_Alicat_1581316070.csv",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "airmar": {
+            "channelName": "airmar",
+            "typeMap": {
+                "(__enum__)ChannelType.Metadata": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\metadata\\airmar.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": {
+                                        "source": "string",
+                                        "timestamp": "float",
+                                        "airmar1": "float"
+                                    },
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\airmar_1581316070.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\airmar_1581316070.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Data": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\data\\airmar.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\airmar_1581316070.csv",
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "float",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "airmar1": {
+                                            "type": "float",
+                                            "fieldname": "airmar1"
+                                        }
+                                    }
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\airmar_1581316070.csv",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "Gill": {
+            "channelName": "Gill",
+            "typeMap": {
+                "(__enum__)ChannelType.Metadata": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\metadata\\Gill.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "units": "None",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "units": "UTC",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "U_Gill": {
+                                            "type": "float",
+                                            "units": "S_N+",
+                                            "fieldname": "U_Gill"
+                                        },
+                                        "V_Gill": {
+                                            "type": "float",
+                                            "units": "E_W+",
+                                            "fieldname": "V_Gill"
+                                        },
+                                        "Units": {
+                                            "type": "string",
+                                            "units": "",
+                                            "fieldname": "Units"
+                                        },
+                                        "WindSpeed": {
+                                            "type": "float",
+                                            "units": "m/s",
+                                            "fieldname": "WindSpeed"
+                                        },
+                                        "WindDirection": {
+                                            "type": "float",
+                                            "units": "degNmark)",
+                                            "fieldname": "WindDirection"
+                                        }
+                                    },
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\Gill_1581316070.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\Gill_1581316070.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Data": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\data\\Gill.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\Gill_1581316070.csv",
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "units": "None",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "units": "UTC",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "U_Gill": {
+                                            "type": "float",
+                                            "units": "S_N+",
+                                            "fieldname": "U_Gill"
+                                        },
+                                        "V_Gill": {
+                                            "type": "float",
+                                            "units": "E_W+",
+                                            "fieldname": "V_Gill"
+                                        },
+                                        "Units": {
+                                            "type": "string",
+                                            "units": "",
+                                            "fieldname": "Units"
+                                        },
+                                        "WindSpeed": {
+                                            "type": "float",
+                                            "units": "m/s",
+                                            "fieldname": "WindSpeed"
+                                        },
+                                        "WindDirection": {
+                                            "type": "float",
+                                            "units": "degNmark)",
+                                            "fieldname": "WindDirection"
+                                        }
+                                    }
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\Gill_1581316070.csv",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "GPS": {
+            "channelName": "GPS",
+            "typeMap": {
+                "(__enum__)ChannelType.Metadata": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\metadata\\GPS.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "units": "None",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "units": "UTC",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "GPSTime": {
+                                            "type": "string",
+                                            "units": "UTC",
+                                            "fieldname": "GPSTime"
+                                        },
+                                        "Lat": {
+                                            "type": "float",
+                                            "units": "dec_deg",
+                                            "fieldname": "Lat"
+                                        },
+                                        "Long": {
+                                            "type": "float",
+                                            "units": "dec_deg",
+                                            "fieldname": "Long"
+                                        },
+                                        "PosQual": {
+                                            "type": "int",
+                                            "units": "",
+                                            "fieldname": "PosQual"
+                                        },
+                                        "Altitude": {
+                                            "type": "float",
+                                            "units": "m",
+                                            "fieldname": "Altitude"
+                                        },
+                                        "COGT": {
+                                            "type": "float",
+                                            "units": "degTruenorth",
+                                            "fieldname": "COGT"
+                                        },
+                                        "COGM": {
+                                            "type": "float",
+                                            "units": "degMagnorth",
+                                            "fieldname": "COGM"
+                                        },
+                                        "SOGN": {
+                                            "type": "float",
+                                            "units": "knots",
+                                            "fieldname": "SOGN"
+                                        },
+                                        "SOGK": {
+                                            "type": "int",
+                                            "units": "km/h",
+                                            "fieldname": "SOGK"
+                                        },
+                                        "OGQual": {
+                                            "type": "string",
+                                            "units": "",
+                                            "fieldname": "OGQual"
+                                        }
+                                    },
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\GPS_1581316070.json"
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\metadata\\GPS_1581316070.json",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                },
+                "(__enum__)ChannelType.Data": {
+                    "manifest": {
+                        "manifestPath": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\manifests\\data\\GPS.manifest",
+                        "_manifest": [
+                            {
+                                "RecordDate": "02/10/2020",
+                                "RecordTime": "06:27:50",
+                                "EndDate": "12/31/9999",
+                                "EndTime": "23:59:59",
+                                "Formatter": {
+                                    "path": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\GPS_1581316070.csv",
+                                    "metadata": {
+                                        "source": {
+                                            "type": "string",
+                                            "units": "None",
+                                            "fieldname": "source"
+                                        },
+                                        "timestamp": {
+                                            "type": "datetime - UTC epoch",
+                                            "units": "UTC",
+                                            "fieldname": "timestamp"
+                                        },
+                                        "GPSTime": {
+                                            "type": "string",
+                                            "units": "UTC",
+                                            "fieldname": "GPSTime"
+                                        },
+                                        "Lat": {
+                                            "type": "float",
+                                            "units": "dec_deg",
+                                            "fieldname": "Lat"
+                                        },
+                                        "Long": {
+                                            "type": "float",
+                                            "units": "dec_deg",
+                                            "fieldname": "Long"
+                                        },
+                                        "PosQual": {
+                                            "type": "int",
+                                            "units": "",
+                                            "fieldname": "PosQual"
+                                        },
+                                        "Altitude": {
+                                            "type": "float",
+                                            "units": "m",
+                                            "fieldname": "Altitude"
+                                        },
+                                        "COGT": {
+                                            "type": "float",
+                                            "units": "degTruenorth",
+                                            "fieldname": "COGT"
+                                        },
+                                        "COGM": {
+                                            "type": "float",
+                                            "units": "degMagnorth",
+                                            "fieldname": "COGM"
+                                        },
+                                        "SOGN": {
+                                            "type": "float",
+                                            "units": "knots",
+                                            "fieldname": "SOGN"
+                                        },
+                                        "SOGK": {
+                                            "type": "int",
+                                            "units": "km/h",
+                                            "fieldname": "SOGK"
+                                        },
+                                        "OGQual": {
+                                            "type": "string",
+                                            "units": "",
+                                            "fieldname": "OGQual"
+                                        }
+                                    }
+                                },
+                                "Filename": "C:\\Users\\Khal Aidan\\Documents\\CommandFramework\\VanBranch\\Applications\\TimsVan\\Data\\VanData_2020-02-09_23-27-48\\data\\GPS_1581316070.csv",
+                                "Notes": null
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

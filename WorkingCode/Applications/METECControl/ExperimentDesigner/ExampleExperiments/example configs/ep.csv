@@ -1,0 +1,179 @@
+Emission Point,Shorthand,Description,Column,CB
+1W-11,1W-1A-R,Pressure Gauge,4,CB-1W
+1W-01,1W-1A-L,"ROW: Depth = 30""",4,CB-1W
+1W-12,1W-1B,Pneumatic Control Box,4,CB-1W
+1W-15,1W-2A-R,Lubricator Flange,4,CB-1W
+1W-02,1W-2A-L,"ROW: Depth = 18""",4,CB-1W
+1W-13,1W-2B,Kimray Packing,4,CB-1W
+1W-16,1W-3A-R,Hand Valve Packing,4,CB-1W
+1W-03,1W-3A-L,"ROW: Depth = 15""",4,CB-1W
+1W-14,1W-3B,Kimray Vent,4,CB-1W
+1S-13,1S-1A,House PRV,4,CB-1S
+1S-17,1S-1B,Burner Control,4,CB-1S
+1S-18,1S-2A,Burner Fuel Supply,4,CB-1S
+1S-11,1S-2B,Liquid Level Controller A,4,CB-1S
+1S-15,1S-3A,Low Pressure PRV,4,CB-1S
+1S-16,1S-3B,Kimray Vent,4,CB-1S
+1T-11,1T-1A,Lower NW Flange,5,CB-1T
+1T-12,1T-1B,Upper S Flange,5,CB-1T
+1T-13,1T-2A,Thief Hatch,5,CB-1T
+1T-14,1T-2B,Candy Cane Vent,5,CB-1T
+2W-12,2W-1A,Pneumatic Control Box,4,CB-2W
+2W-11,2W-1B,Pressure Gauge,4,CB-2W
+2W-13,2W-2A,Kimray Flange,4,CB-2W
+2W-15,2W-2B,Valve Packing - Shut In Valve,4,CB-2W
+2W-14,2W-3A,Kimray Vent,4,CB-2W
+2W-16,2W-3B,Casing Ball Valve,4,CB-2W
+2S-11,2S-1A,Kimray Valve Body,4,CB-2S
+2S-12,2S-1B,Gage Fitting,4,CB-2S
+2S-15,2S-2A,Witches Hat,4,CB-2S
+2S-16,2S-2B,Kimray (large) Vent,4,CB-2S
+2S-17,2S-3A,Kimray (small) Vent,4,CB-2S
+2S-18,2S-3B,PRV,4,CB-2S
+2T-11,2T-1A-R,Thief Hatch,5,CB-2T
+2T-01,2T-1A-L,"ROW: Depth = 36""",5,CB-2T
+2T-12,2T-1B,ground emission point,5,CB-2T
+2T-13,2T-2A-R,Roof Vent,5,CB-2T
+,2T-2A-L,,5,CB-2T
+2T-14,2T-2B,east ground tank drain pipe,5,CB-2T
+3W-31,3W-1A-R,Regulator,4,CB-3W
+3W-01,3W-1A-L,"ROW: Depth = 38""",4,CB-3W
+3W-21,3W-1B,Casing Gauge Port,4,CB-3W
+3W-11,3W-2A-R,Casing Flange,4,CB-3W
+,3W-2A-L,,4,CB-3W
+3W-22,3W-2B,Pneumatic Control Box,4,CB-3W
+3W-12,3W-3A-R,Kimray Vent,4,CB-3W
+,3W-3A-L,,4,CB-3W
+3W-32,3W-3B,Kimray Vent,4,CB-3W
+3S-11,3S-1A,Burner Supply,4,CB-3S
+3S-21,3S-1B,House Bottom,4,CB-3S
+3S-13,3S-2A,House PRV,4,CB-3S
+3S-22,3S-2B,Chimney,4,CB-3S
+3S-14,3S-3A,Kimray Vent,4,CB-3S
+3S-23,3S-3B,Double Kimray Vent,4,CB-3S
+3T-21,3T-1A-R,Center Roof Vent,5,CB-3T
+3T-01,3T-1A-L,"ROW: Depth = 36""",5,CB-3T
+3T-11,3T-1B,Header PRV,5,CB-3T
+3T-12,3T-2A-R,Thief Hatch,5,CB-3T
+,3T-2A-L,,5,CB-3T
+3T-22,3T-2B,Thief Hatch,5,CB-3T
+4W-42,4W-1A-L,Valve Packing - Shut In Valve *,4,CB-4W
+4W-26,4W-1A-R,Pressure Regulator,4,CB-4W
+4W-31,4W-1B-L,Valve Packing - Shut In Valve,4,CB-4W
+4W-41,4W-1B-R,Valve - Casing,4,CB-4W
+4W-15,4W-2A-L,Threaded Connection - Pressure Gauge,4,CB-4W
+4W-24,4W-2A-R,Valve Packing - Kimray (Lower Stem),4,CB-4W
+4W-01,4W-2B-L,Ground Leak,4,CB-4W
+4W-32,4W-2B-R,Flange - Plunger Base,4,CB-4W
+4W-43,4W-3A-L,Kimray Vent,4,CB-4W
+4W-11,4W-3A-R,Flange - Casing,4,CB-4W
+4W-27,4W-3B-L,Threaded Connection - Valve,4,CB-4W
+4W-51,4W-3B-R,Flange - Casing,4,CB-4W
+4S-22,4S-1A-L,Kimray Flange Diaphragm,4,CB-4S
+4S-14,4S-1A-R,Burner Control,4,CB-4S
+4S-44,4S-1B-L,LP PRV,4,CB-4S
+4S-12,4S-1B-R,Burner Supply,4,CB-4S
+4S-31,4S-2A-L,LP PRV,4,CB-4S
+4S-41,4S-2A-R,House PRV,4,CB-4S
+4S-32,4S-2B-L,Kimray valve packing,4,CB-4S
+4S-42,4S-2B-R,House Regulator Plug,4,CB-4S
+4S-23,4S-3A-L,LP PRV,4,CB-4S
+4S-21,4S-3A-R,Kimray valve packing,4,CB-4S
+4S-43,4S-3B-L,Kimray top vent,4,CB-4S
+4S-33,4S-3B-R,House Regulator,4,CB-4S
+4F-11,4T-1A,South Unlit Flare,4,CB-4T
+4T-31,4T-1B,Header,4,CB-4T
+4T-32,4T-2A,Thief Hatch,4,CB-4T
+4T-11,4T-2B,Header ,4,CB-4T
+4T-12,4T-3A,Thief Hatch,4,CB-4T
+4T-22,4T-3B,Thief Hatch,4,CB-4T
+5W-11,5W-1A-L,Valve Body,4,CB-5W
+5W-23,5W-1A-R,Pressure Transducer,4,CB-5W
+5W-21,5W-1B-L,Kimray Valve Body,4,CB-5W
+5W-01,5W-1B-R,"ROW: Depth = 35""",4,CB-5W
+5W-26,5W-2A-L,Braden head,4,CB-5W
+5W-18,5W-2A-R,Control Box,4,CB-5W
+5W-22,5W-2B-L,Pressure Transducer,4,CB-5W
+5W-110,5W-2B-R,Regulator Fitting,4,CB-5W
+5W-14,5W-3A-L,Valve Plug,4,CB-5W
+5W-31,5W-3A-R,Flange,4,CB-5W
+5W-32,5W-3B-L,Valve,4,CB-5W
+5W-34,5W-3B-R,Valve,4,CB-5W
+5S-31,5S-1A-L,Valve Flange,4,CB-5S
+5S-21,5S-1A-R,Valve Body,4,CB-5S
+5S-28,5S-1B-L,Pressure Relief  Valve,4,CB-5S
+5S-01,5S-1B-R,"ROW: Depth = 36""",4,CB-5S
+5S-15,5S-2A-L,Kimray Packing,4,CB-5S
+5S-34,5S-2A-R,Filter (small) Lower Fitting ,4,CB-5S
+5S-14,5S-2B-L,Scrubber (inlet),4,CB-5S
+5S-23,5S-2B-R,Kimray Valve Body,4,CB-5S
+5S-22,5S-3A-L,Control Box,4,CB-5S
+5S-32,5S-3A-R,Kimray (large) Vent,4,CB-5S
+5S-12,5S-3B-L,Elbow Flange ,4,CB-5S
+5S-26,5S-3B-R,Pressure Gage Fitting,4,CB-5S
+6C-16,6C-1A-L,Sillcock-like Valve,4,CB-6C
+6C-116,6C-1A-R,Tank Gage,4,CB-6C
+6C-12,6C-1B-L,Rubbed Swagelok Tube,4,CB-6C
+6C-118,6C-1B-R,North Regulator Diaphram,4,CB-6C
+6C-18,6C-2A-L,Seperator Outlet Nozzle,4,CB-6C
+6C-120,6C-2A-R,Expansion Chamber,4,CB-6C
+6C-13,6C-2B-L,Gage Fitting,4,CB-6C
+6C-119,6C-2B-R,North West Flange,4,CB-6C
+6C-11,6C-3A-L,Flange to Heat Exchangers,4,CB-6C
+6C-114,6C-3A-R,Cloth/WireMesh Covered Unit,4,CB-6C
+6C-17,6C-3B-L,Union Pipe Fitting,4,CB-6C
+6C-115,6C-3B-R,Tank Flange,4,CB-6C
+,6S-1A-L,,4,CB-6S
+,6S-1A-R,,4,CB-6S
+,6S-1B-L,,4,CB-6S
+,6S-1B-R,,4,CB-6S
+6S-12,6S-2A-L,Gage Regulator Box,4,CB-6S
+,6S-2A-R,,4,CB-6S
+6S-14,6S-2B-L,Separator Dump  ,4,CB-6S
+,6S-2B-R,,4,CB-6S
+6S-11,6S-3A-L,Separator Cap,4,CB-6S
+,6S-3A-R,,4,CB-6S
+6S-13,6S-3B-L,On/Off Valve,4,CB-6S
+,6S-3B-R,,4,CB-6S
+6D-11,6D-1A-L,Tank Vent,4,CB-6D
+6D-15,6D-1A-R,55 Gal Vent Box Fitting,4,CB-6D
+6D-111,6D-1B-L,Temperature Gage ,4,CB-6D
+6D-110,6D-1B-R,Blue Balance Valve,4,CB-6D
+6D-115,6D-2A-L,Valve Assembly,4,CB-6D
+6D-19,6D-2A-R,Vent Expansion Tank Regulator,4,CB-6D
+6D-112,6D-2B-L,Diaphram,4,CB-6D
+6D-113,6D-2B-R,North East Flange,4,CB-6D
+6D-02,6D-3A-L,"ROW: Depth = 35""",4,CB-6D
+6D-13,6D-3A-R,South West Side Vent,4,CB-6D
+6D-18,6D-3B-L,South Pressure Gage Fitting,4,CB-6D
+6D-17,6D-3B-R,Tank Flange,4,CB-6D
+7P1-35,7P1-1A-L,"L-Heterogeneous, 3 ft",4,CB-7P1
+7P1-32,7P1-1A-R,"R-Homogeneous, 3 ft",4,CB-7P1
+7P1-34,7P1-1B-L,"L-Heterogeneous, 3 ft",4,CB-7P1
+7P1-31,7P1-1B-R,"R-Homogeneous, 3 ft",4,CB-7P1
+7P1-21,7P1-2A-L,"L-Heterogeneous, 2 ft",4,CB-7P1
+7P1-11,7P1-2A-R,"R-Homogeneous, 1 ft",4,CB-7P1
+7P1-36,7P1-2B-L,"L-Heterogeneous, 3 ft",4,CB-7P1
+7P1-33,7P1-2B-R,"R-Homogeneous, 3 ft",4,CB-7P1
+7P1-23,7P1-3A-L,"L-Heterogeneous, 2 ft",4,CB-7P1
+7P1-13,7P1-3A-R,"R-Homogeneous, 1 ft",4,CB-7P1
+7P1-22,7P1-3B-L,"L-Heterogeneous, 2 ft",4,CB-7P1
+7P1-12,7P1-3B-R,"R-Homogeneous, 1 ft",4,CB-7P1
+7P2-32,7P2-1A,"3 ft, bottom",4,CB-7P2
+7P2-33,7P2-1B,"3 ft, top",4,CB-7P2
+7P2-23,7P2-2A,"2 ft, top",4,CB-7P2
+7P2-31,7P2-2B,"3 ft, side",4,CB-7P2
+7P2-21,7P2-3A,Blue Balance Valve,4,CB-7P2
+7P2-22,7P2-3B,"2 ft, bottom",4,CB-7P2
+7P3-32,7P3-1A,"3 ft, bottom",4,CB-7P3
+7P3-33,7P3-1B,"3 ft, top",4,CB-7P3
+7P3-23,7P3-2A,"2 ft, top",4,CB-7P3
+7P3-31,7P3-2B,"3 ft, side",4,CB-7P3
+7P3-21,7P3-3A,"2 ft, side",4,CB-7P3
+7P3-22,7P3-3B,"2 ft, bottom",4,CB-7P3
+7P4-32,7P4-1A,"3 ft, bottom",4,CB-7P4
+7P4-33,7P4-1B,"3 ft, top",4,CB-7P4
+7P4-23,7P4-2A,"2 ft, top",4,CB-7P4
+7P4-31,7P4-2B,"3 ft, side",4,CB-7P4
+7P4-21,7P4-3A,"2 ft, side",4,CB-7P4
+7P4-22,7P4-3B,"2 ft, bottom",4,CB-7P4

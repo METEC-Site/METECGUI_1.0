@@ -1,0 +1,77 @@
+{
+    "source": {
+        "type": "string",
+        "units": "None",
+        "fieldname": "source"
+    },
+    "timestamp": {
+        "type": "datetime - UTC epoch",
+        "units": "UTC",
+        "fieldname": "timestamp"
+    },
+    "celltemp": {
+        "type": "float",
+        "units": "C",
+        "fieldname": "celltemp"
+    },
+    "cellpres": {
+        "type": "float",
+        "units": "kPa",
+        "fieldname": "cellpres"
+    },
+    "co2": {
+        "type": "float",
+        "units": "ppm",
+        "fieldname": "co2"
+    },
+    "co2abs": {
+        "type": "float",
+        "units": "",
+        "fieldname": "co2abs"
+    },
+    "h2o": {
+        "type": "float",
+        "units": "mmol/mol",
+        "fieldname": "h2o"
+    },
+    "h2oabs": {
+        "type": "float",
+        "units": "",
+        "fieldname": "h2oabs"
+    },
+    "h2odewpoint": {
+        "type": "float",
+        "units": "deg C",
+        "fieldname": "h2odewpoint"
+    },
+    "flowrate": {
+        "type": "float",
+        "units": "L/min",
+        "fieldname": "flowrate"
+    },
+    "raw_co2": {
+        "type": "int",
+        "units": "",
+        "fieldname": "raw_co2"
+    },
+    "raw_co2ref": {
+        "type": "int",
+        "units": "",
+        "fieldname": "raw_co2ref"
+    },
+    "raw_h2o": {
+        "type": "int",
+        "units": "",
+        "fieldname": "raw_h2o"
+    },
+    "raw_h2oref": {
+        "type": "int",
+        "units": "",
+        "fieldname": "raw_h2oref"
+    },
+    "ivolt": {
+        "type": "float",
+        "units": "Input Voltage",
+        "fieldname": "ivolt"
+    }
+}

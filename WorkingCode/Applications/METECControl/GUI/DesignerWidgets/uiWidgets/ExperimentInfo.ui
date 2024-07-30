@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>876</width>
+    <height>189</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>876</width>
+    <height>189</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>876</width>
+    <height>189</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::Box</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Sunken</enum>
+  </property>
+  <property name="lineWidth">
+   <number>2</number>
+  </property>
+  <property name="midLineWidth">
+   <number>1</number>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>161</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>161</height>
+      </size>
+     </property>
+     <property name="cursor" stdset="0">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustToContents</enum>
+     </property>
+     <property name="dragEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="alternatingRowColors">
+      <bool>true</bool>
+     </property>
+     <row>
+      <property name="text">
+       <string>GSH-1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>GSH-2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>GSH-3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>GSH-4</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Test_Number</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>N_Iterations</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Cur_Iter</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Cur_Iter_Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Min_per_Iter</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Progress</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Elapsed_Time</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Total_Time</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

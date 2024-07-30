@@ -1,0 +1,24 @@
+{
+  "Startup": [
+  	{
+      "Action": "CloseAll"
+    }
+  ],
+  "Test": [
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+        {"Name":  "1W-11", "Level": 1},
+        {"Name":  "2S-11", "Level": 2},
+		{"Name":  "1S-13", "Level": 3},
+		{"Name":  "1S-18", "Level": 1}
+      ],
+      "TimeDelta": "Undefined"
+    }
+  ],
+  "Termination": [
+    {
+      "Action": "CloseAll"
+    }
+    ]
+}

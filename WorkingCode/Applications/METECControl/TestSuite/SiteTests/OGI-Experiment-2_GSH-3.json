@@ -1,0 +1,67 @@
+{
+  "Startup": [
+    {
+      "Action": "CloseAll"
+    },
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "4W-41", "Level": 1},
+		{"Name":  "5W-18", "Level": 1}
+      ],
+      "TimeDelta": 120
+    },
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "4W-32", "Level": 1},
+		{"Name":  "5S-23", "Level": 2}
+      ],
+      "TimeDelta": 120
+    },
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "4W-51", "Level": 1}
+      ],
+      "TimeDelta": 120
+    },
+	{
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "4S-12", "Level": 3}
+      ],
+      "TimeDelta": 120
+    },
+	{
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "4S-42", "Level": 1}
+      ],
+      "TimeDelta": 120
+    },
+    {
+      "Action": "CloseAll"
+    }
+  ],
+  "Test": [
+    {
+      "Action": "SetLevels",
+      "EmissionPoints": [
+		{"Name":  "4W-41", "Level": 1},
+		{"Name":  "5W-18", "Level": 1},
+		{"Name":  "4W-32", "Level": 1},
+		{"Name":  "5S-23", "Level": 2},
+		{"Name":  "4W-51", "Level": 1},
+		{"Name":  "4S-12", "Level": 3},
+		{"Name":  "4S-42", "Level": 1}
+      ],
+      "TimeDelta": "Undefined"
+    }
+  ],
+  "Termination": [
+    {
+      "Action": "CloseAll"
+    }
+    ]
+}

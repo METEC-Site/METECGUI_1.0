@@ -1,0 +1,598 @@
+{
+  "Metadata": {
+    "FMConfig": {
+      "CB-1W": "GSH-1.FM-2",
+      "CB-2S": "GSH-1.FM-4"
+    },
+    "EPConfig": {
+      "1W-11": "1W-1A-R",
+      "2S-18": "2S-3B"
+    },
+    "Spans": {
+      "CB-1W.EV-14": 0.0,
+      "CB-1W.EV-24": 0.0,
+      "CB-1W.EV-34": 0.0,
+      "CB-1W.EV-11": 0.0071,
+      "CB-1W.EV-12": 0.0102,
+      "CB-1W.EV-21": 0.0102,
+      "CB-1W.EV-31": 0.0122,
+      "CB-1W.EV-13": 0.015,
+      "CB-1W.EV-22": 0.015,
+      "CB-1W.EV-32": 0.019,
+      "CB-1W.EV-23": 0.021,
+      "CB-1W.EV-33": 0.025,
+      "CB-2S.EV-14": 0.0,
+      "CB-2S.EV-24": 0.0,
+      "CB-2S.EV-34": 0.0,
+      "CB-2S.EV-11": 0.0071,
+      "CB-2S.EV-12": 0.0102,
+      "CB-2S.EV-21": 0.0102,
+      "CB-2S.EV-31": 0.0122,
+      "CB-2S.EV-13": 0.015,
+      "CB-2S.EV-22": 0.015,
+      "CB-2S.EV-32": 0.019,
+      "CB-2S.EV-23": 0.021,
+      "CB-2S.EV-33": 0.025,
+      "GSH-1.FM-2": 100.0,
+      "GSH-1.FM-4": 100.0
+    },
+    "Pressures (psia)": {
+      "CB-1W": 80,
+      "CB-2S": 80
+    },
+    "EPStats": {
+      "1W-11": {
+        "max flow rate (SLPM)": 14.1,
+        "avg flow rate (SLPM)": 12.230999999999998,
+        "percentEmitting": 1.0
+      },
+      "2S-18": {
+        "max flow rate (SLPM)": 12.95,
+        "avg flow rate (SLPM)": 6.475,
+        "percentEmitting": 0.5
+      }
+    },
+    "PreExperimentLength (sec)": 721,
+    "ExperimentLength (sec)": 10,
+    "PostExperimentLength (sec)": 660,
+    "Config Values": {
+      "T1 (F)": 70.0,
+      "P2 (psia)": 12.5,
+      "SG": 0.554,
+      "K Rel N2": 0.75
+    }
+  },
+  "PreExperiment": {
+    "CloseAfterSection": false,
+    "ControlledReleases": [
+      {
+        "Time": 0,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 1,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Pre Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-31": 0,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          },
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 1,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Pre Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 0,
+              "EV-12": 1,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 180,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 0,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Pre Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 1,
+              "EV-12": 1,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          },
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 0,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Pre Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-31": 1,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          }
+        ]
+      },
+      {
+        "Time": 240,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 2,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Pre Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 1,
+              "EV-12": 0,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 420,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 0,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Pre Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 1,
+              "EV-12": 1,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 480,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 3,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Pre Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 0,
+              "EV-12": 0,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 660,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 0,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Pre Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 1,
+              "EV-12": 1,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Experiment": {
+    "Iterations": 1,
+    "CloseAfterSection": false,
+    "CloseAfterIteration": false,
+    "ControlledReleases": [
+      {
+        "Time": 0,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 1,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Fugitive",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 0,
+              "EV-12": 1,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          },
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 0,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Fugitive",
+            "Intent": "Intermittent Preset",
+            "SetStates": {
+              "EV-31": 1,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          }
+        ]
+      },
+      {
+        "Time": 1,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 1,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Fugitive",
+            "Intent": "Intermittent Preset",
+            "SetStates": {
+              "EV-31": 0,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          },
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 2,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Fugitive",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 1,
+              "EV-12": 0,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 2,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 0,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Fugitive",
+            "Intent": "Intermittent Preset",
+            "SetStates": {
+              "EV-31": 1,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          }
+        ]
+      },
+      {
+        "Time": 3,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 1,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Fugitive",
+            "Intent": "Intermittent Preset",
+            "SetStates": {
+              "EV-31": 0,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          },
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 3,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Fugitive",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 0,
+              "EV-12": 0,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 4,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 0,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Fugitive",
+            "Intent": "Intermittent Preset",
+            "SetStates": {
+              "EV-31": 1,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          }
+        ]
+      },
+      {
+        "Time": 5,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 1,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Fugitive",
+            "Intent": "Intermittent Preset",
+            "SetStates": {
+              "EV-31": 0,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          }
+        ]
+      },
+      {
+        "Time": 6,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 0,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Fugitive",
+            "Intent": "Intermittent Preset",
+            "SetStates": {
+              "EV-31": 1,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          }
+        ]
+      },
+      {
+        "Time": 7,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 1,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Fugitive",
+            "Intent": "Intermittent Preset",
+            "SetStates": {
+              "EV-31": 0,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          }
+        ]
+      },
+      {
+        "Time": 8,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 0,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Fugitive",
+            "Intent": "Intermittent Preset",
+            "SetStates": {
+              "EV-31": 1,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          }
+        ]
+      },
+      {
+        "Time": 9,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 1,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Fugitive",
+            "Intent": "Intermittent Preset",
+            "SetStates": {
+              "EV-31": 0,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "PostExperiment": {
+    "CloseAfterSection": false,
+    "ControlledReleases": [
+      {
+        "Time": 0,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 1,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Post Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-31": 0,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          },
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 1,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Post Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 0,
+              "EV-12": 1,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 180,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 0,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Post Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 1,
+              "EV-12": 1,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          },
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "2S-18",
+            "FlowLevel": 0,
+            "Controller": "CB-2S",
+            "EmissionCategory": "Post Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-31": 1,
+              "EV-32": 1,
+              "EV-33": 1,
+              "EV-34": 0
+            }
+          }
+        ]
+      },
+      {
+        "Time": 240,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 2,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Post Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 1,
+              "EV-12": 0,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 420,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 0,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Post Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 1,
+              "EV-12": 1,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 480,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 3,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Post Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 0,
+              "EV-12": 0,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      },
+      {
+        "Time": 660,
+        "Actions": [
+          {
+            "ActionType": "Defined",
+            "EmissionPoint": "1W-11",
+            "FlowLevel": 0,
+            "Controller": "CB-1W",
+            "EmissionCategory": "Post Test",
+            "Intent": "",
+            "SetStates": {
+              "EV-11": 1,
+              "EV-12": 1,
+              "EV-13": 1,
+              "EV-14": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
