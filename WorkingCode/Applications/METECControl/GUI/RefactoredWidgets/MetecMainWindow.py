@@ -7,7 +7,7 @@ from Applications.METECControl.GUI.RefactoredWidgets.BasicWidgets.ScrollWidget i
 from Applications.METECControl.GUI.RefactoredWidgets.ExperimentalControl.Container import ExpContainer
 from Applications.METECControl.GUI.RefactoredWidgets.GUITabs.GSH1Tab import GSH1Tab
 from Applications.METECControl.GUI.RefactoredWidgets.GUITabs.GSH2Tab import GSH2Tab
-from Applications.METECControl.GUI.RefactoredWidgets.GUITabs.GSH3Tab import GSH3Tab
+#from Applications.METECControl.GUI.RefactoredWidgets.GUITabs.GSH3Tab import GSH3Tab
 from Applications.METECControl.GUI.RefactoredWidgets.GUITabs.GSH4Tab import GSH4Tab
 from Applications.METECControl.GUI.RefactoredWidgets.GUITabs.METTab import METTab
 from Applications.METECControl.GUI.RefactoredWidgets.GUITabs.TabManager import TabManager
@@ -64,7 +64,7 @@ class MainWindow(qtw.QMainWindow, QtMixin):
         self._buildExperimentControl()
         self._buildGSH1()
         self._buildGSH2()
-        self._buildGSH3()
+       # self._buildGSH3()
         self._buildGSH4()
         # self._buildGMR()
         # self._buildMET()
@@ -99,11 +99,11 @@ class MainWindow(qtw.QMainWindow, QtMixin):
         self.GSH2Tab.addWidget(self.GSH2TabWidget)
         self.tabManager.addTab(self.GSH2Tab, "GSH-2")
 
-    def _buildGSH3(self):
-        self.GSH3Tab = ScrollWidget(GUIInterface=self.GUIInterface, name="GSH-3", parent=self)
-        self.GSH3TabWidget = GSH3Tab(GUIInterface=self.GUIInterface, name="GSH-3-Tab", parent=self)
-        self.GSH3Tab.addWidget(self.GSH3TabWidget)
-        self.tabManager.addTab(self.GSH3Tab, "GSH-3")
+    # def _buildGSH3(self):
+    #     self.GSH3Tab = ScrollWidget(GUIInterface=self.GUIInterface, name="GSH-3", parent=self)
+    #     self.GSH3TabWidget = GSH3Tab(GUIInterface=self.GUIInterface, name="GSH-3-Tab", parent=self)
+    #     self.GSH3Tab.addWidget(self.GSH3TabWidget)
+    #     self.tabManager.addTab(self.GSH3Tab, "GSH-3")
 
     # def _buildGMR(self):
     #     self.GMRTab = ScrollWidget(GUIInterface=self.GUIInterface, name="GMR", parent=self)

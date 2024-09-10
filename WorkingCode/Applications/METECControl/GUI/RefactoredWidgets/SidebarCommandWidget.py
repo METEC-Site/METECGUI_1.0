@@ -11,8 +11,8 @@ ProcessGroups = {
     "PAD-1":{"button": None, "row":1, "col":0},
     "PAD-2":{"button": None, "row":1, "col":1},
     "PAD-3":{"button": None, "row":2, "col":0},
-    "PAD-4":{"button": None, "row":2, "col":1},
-    "PAD-5":{"button": None, "row":3, "col":0},
+    # "PAD-4":{"button": None, "row":2, "col":1},
+    # "PAD-5":{"button": None, "row":3, "col":0},
     "PAD-6":{"button": None, "row":3, "col":1},
     "PAD-7":{"button": None, "row":4, "col":0},
     "GMR-1":{"button": None, "row":4, "col":1}}
